@@ -5,15 +5,17 @@ the others that I've found are bloated
 
 All Dockerfiles are within the their directories
 
-## alpine-min
+
+# Tags
+## latest / v#.#.#
 Minimal build within an alpine linux container
-Produces: <version>
+*latest* is the current head
+*v.#.#.#* is a direct build of the same tag of [mayflower/docker-ls][1]
 
 The idea of this container is embedded use
 
-## alpine-bash
+## bash / bash-v#.#.#
 Similar to above, but with bash and bash completion
-Produces: bash-<version>
 
 The idea of this container is more day to day use
 
